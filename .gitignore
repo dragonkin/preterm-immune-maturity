@@ -1,0 +1,12 @@
+# 环境/临时文件
+_dltest/
+*.tmp
+*.log
+.DS_Store
+
+# 若日后下载了单细胞原始数据，勿入库（体积大）
+*.tar
+*.mtx
+*.mtx.gz
+*.barcodes.tsv.gz
+*.features.tsv.gz
