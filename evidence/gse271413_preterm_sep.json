@@ -1,0 +1,22 @@
+{
+  "SigB_preterm_vs_term": {
+    "cohens_d": 1.4339187562359479,
+    "preterm_mean": -0.2450181206696572,
+    "term_mean": -0.08422944417252645,
+    "perm_n": 100,
+    "null_absmax_d": 0.4806943707376732,
+    "p_empirical_2sided": 0.0,
+    "mannwhitney_u_p": 0.0
+  },
+  "SigA_adult_vs_term_sanity": {
+    "cohens_d_adult_gt_term": -1.2935049693294585,
+    "adult_mean": 0.06959039118147974,
+    "term_mean": -0.024160912862107357
+  },
+  "SigB_postnatal_age_trajectory": {
+    "spearman_rho": -0.16821463654242122,
+    "perm_n": 100,
+    "null_absmax_rho": 0.16657250349144975,
+    "p_empirical_2sided": 0.0
+  }
+}
