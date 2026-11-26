@@ -1,0 +1,52 @@
+{
+  "n_perm": 1000,
+  "postnatal_maturation_trajectory": {
+    "samples": 21,
+    "groups_note": "term_cb=0d, postnatal=7/30/60d, adult=NaN(排除)",
+    "spearman_rho_age_vs_scoreA": 0.685708049912175,
+    "spearman_p": 0.0006009399694352524,
+    "perm_absmax_rho": 0.7408876967157064,
+    "perm_p_2sided": 0.001
+  },
+  "group_mean_scoreA": {
+    "term_cb": {
+      "mean": -0.023286339567071865,
+      "n": 5
+    },
+    "postnatal": {
+      "mean": -0.013356921070772496,
+      "n": 16
+    }
+  },
+  "scoreA_by_age_day": {
+    "0.0": {
+      "mean": -0.02328633956707187,
+      "n": 5
+    },
+    "7.0": {
+      "mean": -0.0399576649110603,
+      "n": 5
+    },
+    "30.0": {
+      "mean": -0.00858782179905835,
+      "n": 7
+    },
+    "60.0": {
+      "mean": 0.011548085004087504,
+      "n": 4
+    }
+  },
+  "preterm_shift_SigA": {
+    "preterm_scoreA": -0.006126827183342813,
+    "term_scoreA": -0.023286339567071865,
+    "cohens_d_gt0_means_preterm_higher": -1.315900457684352,
+    "note": "d>0 => 早产 scoreA 高于足月(偏更'成熟'/成人端); 预期早产应更低, 则此处为阴性",
+    "mannwhitney_p": 0.15079365079365079
+  },
+  "external_gradient_summary": {
+    "GSE302276_adult_minus_cord": 1.694390819377146,
+    "GSE302276_MW_p": 0.2,
+    "GSE157007_CordYoungOld_spearman": 0.35014228907634476,
+    "GSE157007_p": 0.2645207539663866
+  }
+}
