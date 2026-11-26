@@ -1,0 +1,127 @@
+{
+  "n_perm": 100,
+  "by_celltype": {
+    "B": {
+      "n_preterm_cells": 3579,
+      "n_term_cells": 3559,
+      "n_preterm_samples": 5,
+      "n_term_samples": 5,
+      "preterm_scoreB_mean": -0.22932894381149302,
+      "term_scoreB_mean": -0.13585205081936325,
+      "cohens_d": 1.8590455604901306,
+      "null_absmax_d": 2.6976652713907336,
+      "p_empirical": 0.02,
+      "mannwhitney_p": 0.015873015873015872
+    },
+    "Erythrocyte": {
+      "n_preterm_cells": 823,
+      "n_term_cells": 1278,
+      "n_preterm_samples": 5,
+      "n_term_samples": 5,
+      "preterm_scoreB_mean": -0.07627578290875497,
+      "term_scoreB_mean": -0.012004143355923907,
+      "cohens_d": 2.160879621169079,
+      "null_absmax_d": 2.160879621169079,
+      "p_empirical": 0.04,
+      "mannwhitney_p": 0.031746031746031744
+    },
+    "HSPC": {
+      "n_preterm_cells": 584,
+      "n_term_cells": 678,
+      "n_preterm_samples": 5,
+      "n_term_samples": 5,
+      "preterm_scoreB_mean": -0.2789945650972614,
+      "term_scoreB_mean": -0.15117533121794224,
+      "cohens_d": 1.8593730061722813,
+      "null_absmax_d": 1.8593730061722813,
+      "p_empirical": 0.01,
+      "mannwhitney_p": 0.015873015873015872
+    },
+    "Megakaryocyte": {
+      "n_preterm_cells": 337,
+      "n_term_cells": 280,
+      "n_preterm_samples": 5,
+      "n_term_samples": 5,
+      "preterm_scoreB_mean": -0.10696151341905816,
+      "term_scoreB_mean": -0.010626116939229768,
+      "cohens_d": 2.8252420798350153,
+      "null_absmax_d": 2.8252420798350153,
+      "p_empirical": 0.01,
+      "mannwhitney_p": 0.007936507936507936
+    },
+    "Mono_classical": {
+      "n_preterm_cells": 6014,
+      "n_term_cells": 10374,
+      "n_preterm_samples": 5,
+      "n_term_samples": 5,
+      "preterm_scoreB_mean": -0.16463123941475483,
+      "term_scoreB_mean": 0.027656127673854856,
+      "cohens_d": 2.1231405666045458,
+      "null_absmax_d": 2.1231405666045458,
+      "p_empirical": 0.01,
+      "mannwhitney_p": 0.007936507936507936
+    },
+    "Mono_nonclassical": {
+      "n_preterm_cells": 479,
+      "n_term_cells": 543,
+      "n_preterm_samples": 5,
+      "n_term_samples": 5,
+      "preterm_scoreB_mean": -0.13507714768042733,
+      "term_scoreB_mean": 0.005027252916213232,
+      "cohens_d": 2.1701423020118886,
+      "null_absmax_d": 1.689807199837527,
+      "p_empirical": 0.0,
+      "mannwhitney_p": 0.007936507936507936
+    },
+    "NK": {
+      "n_preterm_cells": 4876,
+      "n_term_cells": 5144,
+      "n_preterm_samples": 5,
+      "n_term_samples": 5,
+      "preterm_scoreB_mean": -0.2501156287753686,
+      "term_scoreB_mean": -0.11086858543524705,
+      "cohens_d": 2.1496428370227036,
+      "null_absmax_d": 3.1336564162072604,
+      "p_empirical": 0.02,
+      "mannwhitney_p": 0.015873015873015872
+    },
+    "T_CD4": {
+      "n_preterm_cells": 23451,
+      "n_term_cells": 12387,
+      "n_preterm_samples": 5,
+      "n_term_samples": 5,
+      "preterm_scoreB_mean": -0.28112141012989544,
+      "term_scoreB_mean": -0.1628231057094483,
+      "cohens_d": 2.1207166109648976,
+      "null_absmax_d": 2.5566893878178756,
+      "p_empirical": 0.03,
+      "mannwhitney_p": 0.015873015873015872
+    },
+    "T_CD8": {
+      "n_preterm_cells": 769,
+      "n_term_cells": 718,
+      "n_preterm_samples": 5,
+      "n_term_samples": 5,
+      "preterm_scoreB_mean": -0.28446772893445366,
+      "term_scoreB_mean": -0.16370823711550034,
+      "cohens_d": 1.8248930279034101,
+      "null_absmax_d": 1.8963777467020082,
+      "p_empirical": 0.03,
+      "mannwhitney_p": 0.031746031746031744
+    },
+    "_all_cells_unadjusted": {
+      "n_preterm_samples": 5,
+      "n_term_samples": 5,
+      "cohens_d": 2.3469873568027535,
+      "note": "全谱不校正组成的对照"
+    }
+  },
+  "composition_residual": {
+    "n_samples_used": 10,
+    "n_pc_90pct": 2,
+    "partial_group_coef": 0.0943377723076731,
+    "f_stat": 4.954611025524336,
+    "f_pvalue": 0.06764685316170105,
+    "note": "score_B ~ [分数组成主成分(90%)] + 分组; partial 系数为组效应在与'早产vs足月样本组成'正交后的剩余"
+  }
+}
